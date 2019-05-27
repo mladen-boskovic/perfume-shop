@@ -1,0 +1,1188 @@
+/*----------HEAD----------*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+    font-family: 'Raleway', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*----------HEAD----------*/
+
+
+
+/*----------NAV----------*/
+#nav_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+    padding-top: 9px;
+}
+
+#nav2{
+    width: 100%;
+    //background: white;
+    //background: #2ba0db;
+}
+
+#nav{
+    margin-left: 10px;
+}
+
+#nav ul{
+    font-size: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+#nav ul li a{
+    //color: #fff;
+    color: black;
+    display: block;
+    font-size: 16px;
+    padding: 15px 14px;
+    transition: 0.3s linear;
+    font-weight: bold;
+}
+
+
+#nav ul li a:hover{
+    color: white;
+}
+
+#nav ul li:hover{
+    //background: #126d9b;
+    background: #373737;
+}
+
+#nav ul li ul{
+    border-bottom: 5px solid #2ba0db;
+    display: none;
+    position: absolute;
+    width: 175px;
+}
+
+#nav ul li ul li{
+    border-top: 1px solid #444;
+    display: block;
+}
+
+#nav ul li ul li:first-child{
+    border-top: none;
+}
+
+#nav ul li ul li a{
+    background: #373737;
+    display: block;
+    padding: 10px 14px;
+    color: #DCDCDC;
+}
+
+#nav ul li ul li a:hover{
+    background: #126d9b;
+}
+/*----------NAV----------*/
+
+
+
+/*----------LOGIN----------*/
+#login_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#login_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+#tabela_login tr:last-child td{
+    padding-top: 10px;
+}
+
+#loginDugme{
+    font-weight: bold;
+    text-indent: 0px;
+}
+
+#login_naslov{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#login_naslov h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#login_greske{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#forma_login{
+    padding-bottom: 40px;
+}
+
+#login_drzac a:link{
+    color: blue;
+}
+
+#login_drzac a:visited{
+    color: blue;
+}
+
+#login_drzac a:hover{
+    color: red;
+}
+
+#login_greske h4{
+    padding-bottom: 5px;
+}
+/*----------LOGIN----------*/
+
+
+
+/*----------REGISTER----------*/
+#register_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#register_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+}
+
+#tabela_register tr:last-child{
+    text-align: center;
+}
+
+#tabela_register tr td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#tabela_register tr:last-child td{
+    padding-top: 10px;
+}
+
+#regDugme{
+    font-weight: bold;
+    text-indent: 0px;
+}
+
+#forma_register{
+    padding-bottom: 40px;
+}
+
+#register_naslov{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#register_naslov h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#reg_greske{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+
+#reg_greske h4{
+    padding-bottom: 5px;
+}
+/*----------REGISTER----------*/
+
+
+
+/*----------FOOTER----------*/
+#footer{
+    width: 100%;
+    height: 200px;
+    background-color: #020B13;
+    text-align: center;
+}
+
+#footer ul li{
+    display: inline-block;
+    font-size: 25px;
+    padding: 10px;
+}
+
+#footer ul li a:link{
+    color: #A9A9A9;
+}
+
+#footer ul li a:visited{
+    color: #A9A9A9;
+}
+
+#footer ul li a:hover{
+    color: #F5F5F5;
+}
+
+#footer p{
+    color: #A9A9A9;
+    font-size: 15px;
+}
+
+#footer ul{
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+/*----------FOOTER----------*/
+
+
+
+/*----------PRODUCT----------*/
+#product_sadrzaj{
+    width: 100%;
+    background-color: #F0FFFF;
+}
+
+#product_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#product_drzac img{
+    width: 350px;
+    height: 350px;
+}
+
+#o_proizvodu{
+    width: 400px;
+    height: 350px;
+    margin-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#p_naziv{
+    font-size: 20px;
+    height: 110px;
+}
+
+#p_opis{
+    text-align: justify;
+    height: 100px;
+}
+
+#p_dodatno{
+    height: 40px;
+}
+
+#p_cena{
+    font-size: 25px;
+    height: 60px;
+    font-weight: bold;
+}
+
+.p_opcije{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: darkolivegreen;
+    display: inline-block;
+}
+
+.p_opcije:link{
+    color: #A9A9A9;
+}
+
+.p_opcije:visited{
+    color: #A9A9A9;
+}
+
+.p_opcije:hover{
+    color: #F5F5F5;
+}
+
+.p_opcije{
+    float: right;
+}
+/*----------PRODUCT----------*/
+
+
+
+/*----------PRODUCTS PRODUCTS----------*/
+#products_slika{
+    width: 100%;
+    height: 400px;
+    background: url("../images/products.jpg") no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+}
+
+.proizvod{
+    width: 250px;
+    text-align: center;
+    border: 1px solid #A9A9A9;
+    //border-radius: 5px;
+    background-color: white;
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ps_naziv{
+    height: 85px;
+    font-size: 17px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ps_cena{
+    height: 70px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.detaljnije2{
+    text-align: center;
+}
+
+.proizvod img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.detaljnije{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: darkolivegreen;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.detaljnije:link{
+    color: #A9A9A9;
+}
+
+.detaljnije:visited{
+    color: #A9A9A9;
+}
+
+.detaljnije:hover{
+    color: #F5F5F5;
+}
+
+#proizvodi_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#proizvodi_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#proizvodi_filter{
+    width: 230px;
+    border: 1px solid #A9A9A9;
+    margin-top: 6px;
+    text-indent: 5px;
+}
+
+#proizvodi_filter h4{
+    margin-bottom: 5px;
+}
+
+#proizvodi_filter ul li{
+    margin-bottom: 2px;
+}
+
+#proizvodi{
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stranice_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+.ss_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.stranice{
+    //width: 200px;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.stranice a{
+    padding: 5px 10px 5px 10px;
+    background-color: #373737;
+    color: #A9A9A9;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.stranice a:hover{
+    color: white;
+}
+/*----------PRODUCTS PRODUCTS----------*/
+
+
+
+/*----------AUTHOR----------*/
+#author_naslov{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#author_naslov h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#author_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#author_drzac{
+    margin: 0px auto;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+#author_tekst{
+    text-align: justify;
+    width: 300px;
+}
+/*----------AUTHOR----------*/
+
+
+/*----------CONTACT----------*/
+#contact_sli
+ka{
+    width: 100%;
+    height: 400px;
+    //width: 1366px;
+    background: url("../images/contact.jpg") no-repeat;
+    background-size: cover;
+    margin: 0px auto;
+}
+
+#contact_naslov{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#contact_naslov h2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#contact_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#contact_drzac{
+    margin: 0px auto;
+    width: 1300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 75px;
+}
+
+#contact_drzac ul li{
+    padding: 3px;
+}
+.contactSpan{
+    width: 300px;
+    height: 3px;
+    background-color: #373737;
+    display: block;
+}
+
+#contactEmail{
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+}
+
+#poruka{
+    font-family: 'Raleway', sans-serif;
+    height: 150px;
+    font-size: 15px;
+    resize: vertical;
+    min-height: 100px;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 400px;
+}
+
+#contactDugme{
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #A9A9A9;
+    width: 400px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#contact_greske{
+    width: 100%;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+
+#contact_greske h4{
+    padding-bottom: 5px;
+}
+
+#contact_greske h2{
+    padding-bottom: 5px;
+}
+
+#forma_contact{
+    padding-bottom: 40px;
+}
+/*----------CONTACT----------*/
+
+
+
+/*----------ADMIN----------*/
+#admin_sadrzaj{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#admin_drzac{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#admin_drzac ul li{
+    display: block;
+    margin: 25px;
+    font-weight: bold;
+    padding: 10px;
+    //background-color: darkolivegreen;
+    background-color: #373737;
+    text-align: center;
+}
+
+#admin_drzac ul li a:link{
+    color: #A9A9A9;
+}
+
+#admin_drzac ul li a:visited{
+    color: #A9A9A9;
+}
+
+#admin_drzac ul li a:hover{
+    color: #F5F5F5;
+}
+
+#admin_sadrzaj2{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#admin_drzac2{
+    width: 1300px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#admin_drzac2 ul li{
+    display: inline-block;
+    margin: 25px;
+    font-weight: bold;
+    padding: 10px;
+    //background-color: darkolivegreen;
+    background-color: #373737;
+    text-align: center;
+}
+
+#admin_drzac2 ul li a:link{
+    color: #A9A9A9;
+}
+
+#admin_drzac2 ul li a:visited{
+    color: #A9A9A9;
+}
+
+#admin_drzac2 ul li a:hover{
+    color: #F5F5F5;
+}
+
+#admin_meni{
+    width: 100%;
+    text-align: center;
+    background-color: #373737;
+    color: white;
+}
+
+#admin_meni h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#add_uloga{
+    height: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    width: 125px;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+}
+
+#add_aktivan{
+    height: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    width: 125px;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    float: right;
+}
+
+#add_aktivan_t{
+    float: right;
+}
+
+#addUserDugme{
+    font-weight: bold;
+    text-indent: 0px;
+}
+
+
+#updateUserDugme{
+    font-weight: bold;
+    text-indent: 0px;
+}
+
+#formaProizvod tr td{
+    padding: 3px;
+}
+
+#formaProizvod img{
+    width: 350px;
+    height: 350px;
+}
+
+#formaProizvodNaziv{
+    font-family: 'Raleway', sans-serif;
+    height: 100px;
+    font-size: 15px;
+    resize: none;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 500px;
+}
+
+#formaProizvodOpis{
+    font-family: 'Raleway', sans-serif;
+    height: 100px;
+    font-size: 15px;
+    resize: none;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 500px;
+}
+
+#formaProizvodNazivUp{
+    font-family: 'Raleway', sans-serif;
+    height: 150px;
+    font-size: 15px;
+    resize: none;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 300px;
+}
+
+#formaProizvodOpisUp{
+    font-family: 'Raleway', sans-serif;
+    height: 150px;
+    font-size: 15px;
+    resize: none;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+    width: 300px;
+}
+
+#formaProizvodSlika{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    float: left;
+}
+
+
+#formaProizvodCena{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    height: 35px;
+    border: 1px solid #A9A9A9;
+    float: right;
+}
+
+#formaProizvodCena_t{
+    float: right;
+}
+
+#formaProizvodBrend{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    height: 35px;
+    border: 1px solid #A9A9A9;
+    width: 110px;
+
+}
+
+#formaProizvodPol{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    height: 35px;
+    border: 1px solid #A9A9A9;
+    width: 110px;
+    float: right;
+}
+
+#formaProizvodPol_t{
+    float: right;
+    margin-right: 50px;
+}
+
+#formaProizvodMilitraza{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    height: 35px;
+    border: 1px solid #A9A9A9;
+    width: 110px;
+    float: right;
+}
+
+#formaProizvodMilitraza_t{
+    float: right;
+}
+
+#formaProizvodDugme{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    border: 1px solid #A9A9A9;
+    font-weight: bold;
+    height: 35px;
+    width: 300px;
+    margin-top: 10px;
+
+}
+
+#formaProizvodDugmeUp{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    border: 1px solid #A9A9A9;
+    font-weight: bold;
+    height: 35px;
+    width: 300px;
+    margin-top: 10px;
+
+}
+
+#formaProizvod tr:last-of-type{
+    text-align: center;
+}
+
+#formaProizvod{
+    padding-bottom: 40px;
+}
+
+.malaSlika{
+    width: 100px;
+}
+
+#allusers_sadrzaj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#allproducts_sadrzaj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#adminLink{
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    padding: 5px 10px;
+    background-color: palegreen;
+    border-bottom-left-radius: 5px;
+}
+
+
+#korpaLink{
+    position: fixed;
+    right: 10px;
+    top: 35px;
+}
+/*----------ADMIN----------*/
+
+
+
+/*----------SHOP----------*/
+#shop_sadrzaj{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#shop_sadrzaj table tr td:last-of-type{
+    text-align: center;
+}
+
+#shop_sadrzaj2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.obrisi{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: darkred;
+    display: inline-block;
+}
+
+.obrisi:link{
+    color: #A9A9A9;
+}
+
+.obrisi:visited{
+    color: #A9A9A9;
+}
+
+.obrisi:hover{
+    color: #F5F5F5;
+}
+
+.kupiDugme{
+    font-size: 15px;
+    padding: 10px 50px 10px 50px;
+    font-weight: bold;
+    background-color: darkolivegreen;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.kupiDugme:link{
+    color: #A9A9A9;
+}
+
+.kupiDugme:visited{
+    color: #A9A9A9;
+}
+
+.kupiDugme:hover{
+    color: #F5F5F5;
+}
+
+.korpaS{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+/*----------SHOP----------*/
+
+
+
+/*------------------------*/
+.detaljnijeD{
+    font-size: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: darkolivegreen;
+    display: inline-block;
+}
+
+.detaljnijeD:link{
+    color: #A9A9A9;
+}
+
+.detaljnijeD:visited{
+    color: #A9A9A9;
+}
+
+.detaljnijeD:hover{
+    color: #F5F5F5;
+}
+
+.inputi{
+    height: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    width: 300px;
+    border: 1px solid #A9A9A9;
+    text-indent: 5px;
+}
+
+.tabela {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.tabela td, .tabela th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela tr:nth-child(even){background-color: #f2f2f2;}
+
+.tabela tr:hover {background-color: #ddd;}
+
+.tabela th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    //background-color: #4CAF50;
+    background-color: #373737;
+    color: white;
+}
+
+
+.tabela_shop {
+    border-collapse: collapse;
+    width: 80%;
+    margin-bottom: 100px;
+}
+
+.tabela_shop td, .tabela_shop th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.tabela_shop tr:nth-child(even){background-color: #f2f2f2;}
+
+.tabela_shop tr:hover {background-color: #ddd;}
+
+.tabela_shop th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    //background-color: #4CAF50;
+    background-color: #373737;
+    color: white;
+}
+
+#error404{
+    width: 100%;
+    text-align: center;
+    background-color: rgb(241, 247, 247);
+}
+
+#error404 h1{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+/*--------------------*/
+
+
+
+/*----------HOME----------*/
+#slajder{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#hr{
+    margin: 0px auto;
+    width: 950px;
+    border-bottom: 1px solid #373737;
+}
+
+#slajder img{
+    display: none;
+}
+
+#slajder .trenutna{
+    display: block;
+}
+
+#home_naslov{
+    width: 100%;
+    text-align: center;
+}
+
+#home_naslov h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#home_muski_zenski{
+    width: 100%;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#home_muski_zenski a:link{
+    opacity: 0.5;
+}
+
+#home_muski_zenski a:hover{
+    opacity: 1;
+}
+
+
+#home_muski_zenski table tr td{
+    padding: 50px;
+}
+
+#ankete{
+    width: 100%;
+    background-color: #F5F5F5;
+    position: relative;
+    text-indent: 20px;
+}
+
+#odgovori{
+    text-indent: 20px;
+}
+
+#selectAnketa{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-indent: 5px;
+    height: 35px;
+    border: 1px solid #A9A9A9;
+    margin-bottom: 10px;
+}
+
+#odgovori{
+    width: 100%;
+    background-color: #F5F5F5;
+}
+
+#odgovori ul li{
+    padding: 3px;
+}
+
+#glasaj{
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #A9A9A9;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#glasajDugmeDiv{
+    background-color: #F5F5F5;
+    text-indent: 10px;
+}
+
+#glasajDugmeDiv p{
+    display: inline-block;
+}
+
+#rezultatiDugme{
+    font-family: 'Raleway', sans-serif;
+    border: 1px solid #A9A9A9;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+#odgovori h4{
+    margin-bottom: 5px;
+}
+
+#izaberiteOdgovor{
+    background-color: #F5F5F5;
+    text-indent: 20px;
+}
+
+#izaberiteOdgovor h4{
+    margin-bottom: 5px;
+}
+
+/*----------HOME----------*/
