@@ -1,38 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://mladenb95.github.io/index.html</loc>
-		<lastmod>2018-03-14</lastmod>
+		<loc>https://mladenperfumeshop.000webhostapp.com/index.php?page=home</loc>
+		<lastmod>2018-06-19</lastmod>
 		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://mladenb95.github.io/putovanja.html</loc>
-		<lastmod>2018-03-14</lastmod>
-		<changefreq>weekly</changefreq>
+		<loc>https://mladenperfumeshop.000webhostapp.com/index.php?page=products</loc>
+		<lastmod>2018-06-19</lastmod>
+		<changefreq>daily</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://mladenb95.github.io/evropa.html</loc>
-		<lastmod>2018-03-14</lastmod>
-		<changefreq>weekly</changefreq>
+		<loc>https://mladenperfumeshop.000webhostapp.com/index.php?page=contact</loc>
+		<lastmod>2018-06-19</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>0.9</priority>
+	</url>
+	<url>
+		<loc>https://mladenperfumeshop.000webhostapp.com/index.php?page=login</loc>
+		<lastmod>2018-06-19</lastmod>
+		<changefreq>yearly</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://mladenb95.github.io/ostatak-sveta.html</loc>
-		<lastmod>2018-03-14</lastmod>
-		<changefreq>weekly</changefreq>
+		<loc>https://mladenperfumeshop.000webhostapp.com/index.php?page=register</loc>
+		<lastmod>2018-06-19</lastmod>
+		<changefreq>yearly</changefreq>
 		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://mladenb95.github.io/o-nama.html</loc>
-		<lastmod>2018-03-14</lastmod>
-		<changefreq>yeary</changefreq>
-		<priority>0.5</priority>
+		<loc>https://mladenperfumeshop.000webhostapp.com/index.php?page=shop</loc>
+		<lastmod>2018-06-19</lastmod>
+		<changefreq>yearly</changefreq>
+		<priority>1</priority>
 	</url>
 	<url>
-		<loc>https://mladenb95.github.io/o-autoru.html</loc>
-		<lastmod>2018-03-14</lastmod>
+		<loc>https://mladenperfumeshop.000webhostapp.com/index.php?page=author</loc>
+		<lastmod>2018-06-19</lastmod>
 		<changefreq>yearly</changefreq>
 		<priority>0.5</priority>
 	</url>
